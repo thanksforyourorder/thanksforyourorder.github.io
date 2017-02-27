@@ -1,0 +1,34 @@
+/* UI BUILD: Monday, Sep 12 2016 at  6:21:19 PM -- BUILD ID: BRANCH_NAME: com.bestbuy.atg-apps.release.1637 VERSION: 16.37.77 */
+/* MD5: 372ca5cc5ded7ec7e29f2cf8f2a9775a */
+
+/* output "/BestBuy_US/store/js/olstmxstatic.js" */
+
+function validateCookie(name){
+	var c_index = 0;
+	var cValue_startIndex = 0;
+	var cValue_endIndex = 0;
+	var c_value = "";
+	c_index = document.cookie.indexOf(name);
+	if(c_index != -1){
+		cValue_startIndex = document.cookie.indexOf("=",c_index) +1;
+		cValue_endIndex = document.cookie.indexOf(";",cValue_startIndex);
+		if(cValue_endIndex != -1){
+			c_value =  unescape(document.cookie.substring(cValue_startIndex,cValue_endIndex));
+		}
+		else{
+			c_value = unescape(document.cookie.substring(cValue_startIndex,document.cookie.length));
+		}
+		if(c_value.length != 64)
+			return true;
+		else
+			return false;
+	}
+	return true;
+}
+
+function ctc(value) {
+	var name = "ZPLANK";
+	if(validateCookie(name)){
+    document.cookie = name+"="+value+";secure;path=/;domain=.bestbuy.com";
+	}
+}

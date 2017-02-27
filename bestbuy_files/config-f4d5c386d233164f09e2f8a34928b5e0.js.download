@@ -1,0 +1,329 @@
+(function(){
+	//The following line will have the manifest info injected into the object at build-time (release mode)
+	var manifest = {"classic-l.bundle.js":"classic-l.bundle-f2b5c49fa8b2bdf8be8e924c1a8aea4e.js","classic-s.bundle.js":"classic-s.bundle-df07682de6f957e6cf044fcf04156f6f.js","optimized.bundle.js":"optimized.bundle-1bad8b4a6cf1a5ccf979bb27b4c5858d.js","sc-blue-assist/dist/blue-assist.bundle.js":"sc-blue-assist/dist/blue-assist.bundle-62be689a8aad4278dc49146a42cec4d7.js","sc-libraries/Gruntfile.js":"sc-libraries/Gruntfile-efb55b0eb2c46b04296d93175925f721.js","sc-libraries/javascript/LiveClickerPopUp.js":"sc-libraries/javascript/LiveClickerPopUp-53040e4c96dc37c7c29c11e9f2a957e1.js","sc-libraries/javascript/_post-libraries.js":"sc-libraries/javascript/_post-libraries-62a60a6c0d1700862e0c060ecb46bb34.js","sc-libraries/javascript/_pre-libraries.js":"sc-libraries/javascript/_pre-libraries-cb4e850b8a1c4484bb210335bc0e3894.js","sc-libraries/javascript/backbone/backbone.babysitter.js":"sc-libraries/javascript/backbone/backbone.babysitter-46fb58bcf26bae5172b95e006e5f7b25.js","sc-libraries/javascript/backbone/backbone.bby-marionette.js":"sc-libraries/javascript/backbone/backbone.bby-marionette-6dd26d18613d7c1eb64866ba1edb07f2.js","sc-libraries/javascript/backbone/backbone.deep-model.js":"sc-libraries/javascript/backbone/backbone.deep-model-c249267e526e4fbe6eaed4f1ea5f304d.js","sc-libraries/javascript/backbone/backbone.hammer.js":"sc-libraries/javascript/backbone/backbone.hammer-e6ef912186b31d6c9508c86ca59995fb.js","sc-libraries/javascript/backbone/backbone.js":"sc-libraries/javascript/backbone/backbone-85e3da662020bd392230ce4cda64b81f.js","sc-libraries/javascript/backbone/backbone.marionette-dust.js":"sc-libraries/javascript/backbone/backbone.marionette-dust-5bf1c1a01d0f4cd95cccd711f81fa1be.js","sc-libraries/javascript/backbone/backbone.marionette-toJSON.js":"sc-libraries/javascript/backbone/backbone.marionette-toJSON-b6cb653ee6a24822f7e9aa295da66ddb.js","sc-libraries/javascript/backbone/backbone.marionette.js":"sc-libraries/javascript/backbone/backbone.marionette-e3a30b9e1745cddf12de3b670cb5fb96.js","sc-libraries/javascript/backbone/backbone.model-binder.js":"sc-libraries/javascript/backbone/backbone.model-binder-9406ffbac7b778610361a7c4e346296b.js","sc-libraries/javascript/backbone/backbone.radio.js":"sc-libraries/javascript/backbone/backbone.radio-d3159a1d943da8b4463f5a85c3260c43.js","sc-libraries/javascript/backbone/backbone.stickit.js":"sc-libraries/javascript/backbone/backbone.stickit-24bb32dde16f00ca00118cb234cf45db.js","sc-libraries/javascript/bluebird-errorHandler.js":"sc-libraries/javascript/bluebird-errorHandler-fa2a8514336fb4e0340d7f3cfaa5c779.js","sc-libraries/javascript/bluebird.js":"sc-libraries/javascript/bluebird-782f295ab9ce1acb9d481b73a45b8dc3.js","sc-libraries/javascript/bootstrap.js":"sc-libraries/javascript/bootstrap-c1eff7b72ea8c15a787bd03b63d82f08.js","sc-libraries/javascript/cookieManager.js":"sc-libraries/javascript/cookieManager-d223ec36d5cc25df946bf78df2322e5f.js","sc-libraries/javascript/dust/dust-core.js":"sc-libraries/javascript/dust/dust-core-a37b5995750b834ab942ec885da79702.js","sc-libraries/javascript/dust/dust-full.js":"sc-libraries/javascript/dust/dust-full-3c97ad815c2ab2d7b7d90a0c90ce3751.js","sc-libraries/javascript/dust/dust-helpers.js":"sc-libraries/javascript/dust/dust-helpers-6aa4c4aaaa6a5360d94e2b16ae4ff785.js","sc-libraries/javascript/dust/dustOnLoad.js":"sc-libraries/javascript/dust/dustOnLoad-21869fc711b14d772e25a08344d15018.js","sc-libraries/javascript/eventmanager/debug-mode.js":"sc-libraries/javascript/eventmanager/debug-mode-cb1e21d4e159dca291a65f89fa66879b.js","sc-libraries/javascript/eventmanager/eventmanager.js":"sc-libraries/javascript/eventmanager/eventmanager-50fb8d2a9de1b12d878a83fbbc80607f.js","sc-libraries/javascript/eventmanager/global-bindings.js":"sc-libraries/javascript/eventmanager/global-bindings-2a0624b7b73a780d5003418b9326af2f.js","sc-libraries/javascript/forge.js":"sc-libraries/javascript/forge-988151effa9ae231d9f90f970466275c.js","sc-libraries/javascript/hammer.js":"sc-libraries/javascript/hammer-797b76ee6378b8a996b5ce5bc25af6f7.js","sc-libraries/javascript/html5shiv.js":"sc-libraries/javascript/html5shiv-b1bea6cbf223ccd6fe2e38f0774f3413.js","sc-libraries/javascript/jack.js":"sc-libraries/javascript/jack-404891b4ddc4e3c0b4ad631e8e0ac561.js","sc-libraries/javascript/jquery/jquery-ui/jquery-ui.js":"sc-libraries/javascript/jquery/jquery-ui/jquery-ui-ec9758d9508e2fd22ddbdc6d5a28f214.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.accordion.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.accordion-59eb033ec33e7c4df0e13486c79c93ee.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.autocomplete.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.autocomplete-9979e47b6a92a4d03977d12eef25e29b.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.button.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.button-3df9998201ab013e5d2efdf47767705c.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.core.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.core-67e9965f7485144ddd09c285e6459416.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.datepicker.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.datepicker-059b3cd66b443a46d7a65a6a9e40681a.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.dialog.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.dialog-eac53ba1f9959dc8b25b18e17875da48.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.draggable.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.draggable-6d3e3acb1956fb1a9b662259077febd4.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.droppable.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.droppable-1f40bea85e18e83f65e1fd8edd2249ff.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-blind.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-blind-607efd93d68b65f503e5950539653357.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-bounce.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-bounce-531715198b9746136a524810b1181873.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-clip.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-clip-6b85b3ac4625027dd4617e16ae9b95bf.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-drop.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-drop-e647f273d097c45cf9edab01fd0d8a9e.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-explode.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-explode-a00c4ae2fe2a829bd49528e60eb9d921.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fade.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fade-d9616bed46deb0f61c33b11d937ca592.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fold.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fold-17cd7ef5bb0180552f689eaa0808a43a.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-highlight.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-highlight-0da42fff4e930d8fe5168002acb2186c.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-pulsate.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-pulsate-dad82d636ba5d13d6f624dd565ad1715.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-scale.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-scale-5405491e2e92ac3d6f7567a68a017627.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-shake.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-shake-075e62cf997e38bf21168831014d8dd5.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-slide.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-slide-a725bd11046c846511cdc284d4dca654.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-transfer.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-transfer-b53cb1d6dcec8067454e0da205ef67ad.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-77ee3f3aadbd70175d5f8779d206322d.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.menu.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.menu-d5c1cd9f036cff2b8f3abd471adbf4f2.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.mouse.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.mouse-d7139cdb96ee896bc8fadbcd4daf8f64.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.position.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.position-fe73e7c3e4df26fb60769ec9e648ea20.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.progressbar.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.progressbar-c9a9d7784102c2dc6beb13d3e9ecfa0d.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.resizable.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.resizable-bf149cde457e4def45f03293e69a5b4a.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.selectable.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.selectable-29bb728dfbfe32f034dae29f0ea8e9ed.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.slider.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.slider-b7e2bb921f7081e70c20393627253800.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.sortable.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.sortable-82e26fd27d53d40961800e008010ba4f.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.spinner.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.spinner-2d48e8d40ba862274accd863c0fec4ad.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tabs.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tabs-52104b9f938d99e7dc42dbc66e26ff65.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tooltip.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tooltip-3d8d30007c6fbd88df21bc7e99cd7922.js","sc-libraries/javascript/jquery/jquery-ui/jquery.ui.widget.js":"sc-libraries/javascript/jquery/jquery-ui/jquery.ui.widget-bddbabe47387bcd9fbf0a764c8d715ed.js","sc-libraries/javascript/jquery/jquery.appear.js":"sc-libraries/javascript/jquery/jquery.appear-058de81a33e8190cfb088443ed07fd65.js","sc-libraries/javascript/jquery/jquery.ba-hashchange.min.js":"sc-libraries/javascript/jquery/jquery.ba-hashchange.min-757898a5793d29189e52ca6ee8fce808.js","sc-libraries/javascript/jquery/jquery.colorbox.js":"sc-libraries/javascript/jquery/jquery.colorbox-fe41e1c7af0b9ba48070d381364ed55d.js","sc-libraries/javascript/jquery/jquery.cookie.js":"sc-libraries/javascript/jquery/jquery.cookie-1454b68ddc0f4430169219204a6731a0.js","sc-libraries/javascript/jquery/jquery.elevatezoom.js":"sc-libraries/javascript/jquery/jquery.elevatezoom-85bed439e504fad4c0e631146d7a75ba.js","sc-libraries/javascript/jquery/jquery.hammer.js":"sc-libraries/javascript/jquery/jquery.hammer-baef8624eb9cbb825b095cb3524f604d.js","sc-libraries/javascript/jquery/jquery.hoverIntent.js":"sc-libraries/javascript/jquery/jquery.hoverIntent-8fddefc1ae1010b6be58c40dcf0b3916.js","sc-libraries/javascript/jquery/jquery.js":"sc-libraries/javascript/jquery/jquery-7f38dcbfb11aff050652ff3b754adb63.js","sc-libraries/javascript/jquery/jquery.jsonp.min.js":"sc-libraries/javascript/jquery/jquery.jsonp.min-ce7794752c93113911416a4cfac8a714.js","sc-libraries/javascript/jquery/jquery.liveclicker.bestbuy-gadget.js":"sc-libraries/javascript/jquery/jquery.liveclicker.bestbuy-gadget-de4f8b2434d8e3b79df5e076fbd064b0.js","sc-libraries/javascript/jquery/jquery.liveclicker.js":"sc-libraries/javascript/jquery/jquery.liveclicker-d5cd18665990112f57d7a11ac7dab7d8.js","sc-libraries/javascript/jquery/jquery.maskedInput.js":"sc-libraries/javascript/jquery/jquery.maskedInput-32903d035510837ae84a12710b3fc84e.js","sc-libraries/javascript/jquery/jquery.migrate.js":"sc-libraries/javascript/jquery/jquery.migrate-7d87ce904ab76326bff3147c72a45b2a.js","sc-libraries/javascript/jquery/jquery.mmenu.js":"sc-libraries/javascript/jquery/jquery.mmenu-2615a78f4e89e6960b9fbc512b3bddf3.js","sc-libraries/javascript/jquery/jquery.mockjax.js":"sc-libraries/javascript/jquery/jquery.mockjax-837e2f9dd2729e51fbdf1c334658df90.js","sc-libraries/javascript/jquery/jquery.ubaplayer.js":"sc-libraries/javascript/jquery/jquery.ubaplayer-cf7249d5f3b5ed221eccb67d3ff97015.js","sc-libraries/javascript/jquery/jquery.url.js":"sc-libraries/javascript/jquery/jquery.url-c5565af7c24a3edce1ab76f540fec308.js","sc-libraries/javascript/jquery/jquery.xmldom.js":"sc-libraries/javascript/jquery/jquery.xmldom-72843ff2a2b036ae13c3d4200a614662.js","sc-libraries/javascript/legacy.js":"sc-libraries/javascript/legacy-6d6c988baa403c2e2a962c0728361ae4.js","sc-libraries/javascript/less/less.js":"sc-libraries/javascript/less/less-3d9aea8d02bfc4c971681446e4a0c40f.js","sc-libraries/javascript/less/less.min.js":"sc-libraries/javascript/less/less.min-27940a5d1564005c48146dc2b762cfc7.js","sc-libraries/javascript/libraries.js":"sc-libraries/javascript/libraries-43dd384053e11135221c2e098eb93a8a.js","sc-libraries/javascript/lodash.compat.js":"sc-libraries/javascript/lodash.compat-6483393526b672bf9025f9e41af51d08.js","sc-libraries/javascript/mediaelement-and-player.js":"sc-libraries/javascript/mediaelement-and-player-172e5d429fc9f6900c9644b88dbe2b6e.js","sc-libraries/javascript/modalmanager.js":"sc-libraries/javascript/modalmanager-c1d97ce45255fbdf8032538599257bb8.js","sc-libraries/javascript/moment-timezone.js":"sc-libraries/javascript/moment-timezone-684f05c7d5a0c41d7b58a92e1fcc6888.js","sc-libraries/javascript/moment.js":"sc-libraries/javascript/moment-1d8bc10656af1890acf2849825be547e.js","sc-libraries/javascript/pikaday.js":"sc-libraries/javascript/pikaday-a0402e0d1485cdf007876b5ddab8dd84.js","sc-libraries/javascript/q.js":"sc-libraries/javascript/q-a97a365e780574a28c1c1c643593065e.js","sc-libraries/javascript/rdp/attributes.js":"sc-libraries/javascript/rdp/attributes-1a974c3e96107e79b284c0e2009a3f9b.js","sc-libraries/javascript/rdp/core.js":"sc-libraries/javascript/rdp/core-a707b8aec8dd258dc63fc262addb7da8.js","sc-libraries/javascript/rdp/rdp.js":"sc-libraries/javascript/rdp/rdp-09769f3d8d8df3c1308b29b6017aa60c.js","sc-libraries/javascript/require/i18n.js":"sc-libraries/javascript/require/i18n-adbfc95a135cf8b0d3ae667501f5a42b.js","sc-libraries/javascript/require/i18nHelper.js":"sc-libraries/javascript/require/i18nHelper-31e30c104796d942989bfaee23f57212.js","sc-libraries/javascript/require/markdownHelper.js":"sc-libraries/javascript/require/markdownHelper-19c510cd0bded060fb384646a28a9290.js","sc-libraries/javascript/require/marked.js":"sc-libraries/javascript/require/marked-9f948a81f35613d44efa9322cbaf450d.js","sc-libraries/javascript/require/plugins/dust-loader.js":"sc-libraries/javascript/require/plugins/dust-loader-e60b8451326f33ead790aea68019ef66.js","sc-libraries/javascript/require/plugins/json-loader.js":"sc-libraries/javascript/require/plugins/json-loader-b21e60d49568c353e7af664cf4f44de9.js","sc-libraries/javascript/require/plugins/less-loader.js":"sc-libraries/javascript/require/plugins/less-loader-92b5b62033fa259bea928416efcb9e8c.js","sc-libraries/javascript/require/require-css/css-builder.js":"sc-libraries/javascript/require/require-css/css-builder-c195b5cfb520ead7869a2266a38e71a8.js","sc-libraries/javascript/require/require-css/css.js":"sc-libraries/javascript/require/require-css/css-a2dcc5272b90308f1eddc6b46724acdc.js","sc-libraries/javascript/require/require-css/normalize.js":"sc-libraries/javascript/require/require-css/normalize-9bd6df7362738a924234c2d61c8c4323.js","sc-libraries/javascript/require/require.js":"sc-libraries/javascript/require/require-07d7db4d3fd6519996822665e4239282.js","sc-libraries/javascript/require/text.js":"sc-libraries/javascript/require/text-6d3a515a2b6f6ddc657c047b702359dd.js","sc-libraries/javascript/respond/respond-proxy.js":"sc-libraries/javascript/respond/respond-proxy-12606571e1ab6ed91bb38d6892c0722a.js","sc-libraries/javascript/respond/respond.js":"sc-libraries/javascript/respond/respond-e5d7fffb3a9f891c926ee1b836d448d8.js","sc-libraries/javascript/swfobject.js":"sc-libraries/javascript/swfobject-8c2ec4bc2c9a39bc3f4ff92223077cf6.js","sc-libraries/javascript/testing/chai-backbone.js":"sc-libraries/javascript/testing/chai-backbone-34432a284660031cbb9243a475b1e68e.js","sc-libraries/javascript/testing/chai-bootstrap.js":"sc-libraries/javascript/testing/chai-bootstrap-0b116a6f1311fdc1c3740d28414c9329.js","sc-libraries/javascript/testing/chai-changes.js":"sc-libraries/javascript/testing/chai-changes-15fe406718fc572c91536f4e9e15f213.js","sc-libraries/javascript/testing/chai.js":"sc-libraries/javascript/testing/chai-6f58d9eafd863fbce31f5661cb45f8ad.js","sc-libraries/javascript/testing/sinon-chai.js":"sc-libraries/javascript/testing/sinon-chai-59a536320bb3f19cdbb6dca28740527b.js","sc-libraries/javascript/testing/sinon.js":"sc-libraries/javascript/testing/sinon-1637faef3e8ac706dec3a913eec34779.js","sc-libraries/javascript/toolbox.js":"sc-libraries/javascript/toolbox-65a04af8ec17a46b0edefebb395e3e58.js","sc-libraries/javascript/underscore.js":"sc-libraries/javascript/underscore-f0cf970075bd7c40c6785e389afb6949.js","sc-libraries/javascript/utilities/deepObjectTraversal.js":"sc-libraries/javascript/utilities/deepObjectTraversal-1b20006af96ddb1202c769c6150adf3a.js","sc-libraries/javascript/zeroclipboard/ZeroClipboard.js":"sc-libraries/javascript/zeroclipboard/ZeroClipboard-0debda99a99a8aacce20868f914def7d.js","sc-libraries/tests/javascript/eventmanager.js":"sc-libraries/tests/javascript/eventmanager-8d38f04e67fdea594682e7a7bd0b9d99.js","sc-libraries/tests/javascript/utilities/deepObjectTraversalSpec.js":"sc-libraries/tests/javascript/utilities/deepObjectTraversalSpec-5d08cca5258e5aa3e26c207ec64dfe94.js","sc-libraries/tests/unit/eventmanagerSpec.js":"sc-libraries/tests/unit/eventmanagerSpec-67462e8ea70578480af3a531bdf76278.js","sc-mini-header-footer/javascript/mini-footer-bootstrap.js":"sc-mini-header-footer/javascript/mini-footer-bootstrap-82c463466bd33a2ad6411028a7f2274b.js","sc-mini-header-footer/javascript/mini-footer.js":"sc-mini-header-footer/javascript/mini-footer-6aa0cc9a96c2fd3d7d73518a0760a52e.js","sc-pattern-library/dist/css/sc-bestbuy-style-guide.css":"sc-pattern-library/dist/css/sc-bestbuy-style-guide-5814935b0e7d83fe8ebf71f4a3f1e8c2.css","sc-pattern-library/dist/css/sc-bestbuy-style-guide.min.css":"sc-pattern-library/dist/css/sc-bestbuy-style-guide.min-2e23226f8a2a2940e9b9749cc7b9df30.css","sc-pattern-library/dist/css/sc-pattern-library.css":"sc-pattern-library/dist/css/sc-pattern-library-5814935b0e7d83fe8ebf71f4a3f1e8c2.css","sc-pattern-library/dist/css/sc-pattern-library.min.css":"sc-pattern-library/dist/css/sc-pattern-library.min-2e23226f8a2a2940e9b9749cc7b9df30.css","sc-pattern-library/dist/js/bootstrap.js":"sc-pattern-library/dist/js/bootstrap-fb81549ee2896513a1ed5714b1b1a0f0.js","sc-pattern-library/dist/js/sc-bestbuy-style-guide.js":"sc-pattern-library/dist/js/sc-bestbuy-style-guide-832d1040b390bd7b0a0abaa1e41c296f.js","sc-pattern-library/dist/js/sc-bestbuy-style-guide.min.js":"sc-pattern-library/dist/js/sc-bestbuy-style-guide.min-feb07eb42c60297c7962d82dded42d53.js","sc-pattern-library/dist/js/sc-pattern-library.js":"sc-pattern-library/dist/js/sc-pattern-library-832d1040b390bd7b0a0abaa1e41c296f.js","sc-pattern-library/dist/js/sc-pattern-library.min.js":"sc-pattern-library/dist/js/sc-pattern-library.min-feb07eb42c60297c7962d82dded42d53.js"}; //Looks for object with only one property '__manifest__' set. replaces from '{' to '}' with the manifest map
+
+	//environment detection
+	var baseUrl;
+
+	var hostRx			= /\/\/(.*?)\//,
+			portRx			= /:\d+$/,
+			librariesRx = /^(.*\/)(sc-|_)libraries\/javascript\/libraries(\-[a-f0-9]{32})?\.js$/,
+			urlRx       = /^https?:\/\/[^\/]+\/?/;
+	var isNode = false;
+
+	if (typeof module !== 'undefined' && module.exports) {
+		isNode = true;
+	}
+
+	var testMode = typeof __karma__ !== 'undefined';
+
+	// This function should return the image server hostname associated with libraries.js
+	function getLibServerRoot() {
+
+		//iterate over the script tages currently on the dom, searching for libraries.js
+		var scripts = document.getElementsByTagName("script");
+		var srcMap = {};
+		for (var i=scripts.length-1; i>=0; i--) {
+			var srcUrl = scripts[i].src;
+			if (librariesRx.test(srcUrl)) {
+				return librariesRx.exec(srcUrl)[1];
+			}
+		}
+		return null;
+	}
+
+	function detectBaseUrl() {
+		if (isNode === true) return '.';
+		if (testMode === true) return '/base';
+
+		if (location.host === 'www.bestbuy.com' || location.host === 'bestbuy.com') {
+			return '//js.bbystatic.com/';
+		} else if (location.host === 'www-ssl.bestbuy.com') {
+			return '//js-ssl.bbystatic.com/';
+		} else if(location.host === 'www.qa.bestbuy.com' || location.host === 'bby-qa2.bestbuy.com' || 'bby-qa3.bestbuy.com') {
+			if(getLibServerRoot()) {
+				return getLibServerRoot();
+			} else if(window.imgServer) {
+				return urlRx.exec(window.imgServer)[0];
+			} else {
+				return '//js.cloud-test.bbystatic.com/';
+			}
+		} else if (getLibServerRoot()) {
+			return getLibServerRoot();
+		} else {
+			return '//js.cloud-test.bbystatic.com/';
+		}
+	}
+
+	var config = {
+		waitSeconds: 30,
+		baseUrl: detectBaseUrl(),
+		shim: {
+			'backbone': {
+				exports: "Backbone"
+			},
+			'jquery': {
+				exports: '$'
+			},
+			'underscore': {
+				exports: '_'
+			},
+			'lodash': {
+				exports: '_'
+			},
+			'sinon': {
+				exports: 'sinon'
+			},
+			'http://images.bestbuy.com/BestBuy_US/store/js/bby-infrastructure.js': {
+				deps: ['http://images.bestbuy.com/BestBuy_US/store/js/jQuery/plugins/ku4j-min.js']
+			},
+			'http://images.bestbuy.com/BestBuy_US/store/js/bby-cart.js': {
+				deps: ['http://images.bestbuy.com/BestBuy_US/store/js/bby-infrastructure.js']
+			},
+			'http://bestbuy.ugc.bazaarvoice.com/static/3545w/bvapi.js': {
+				exports: '$BV'
+			},
+			'http://bestbuy.ugc.bazaarvoice.com/bvstaging/static/3545w/bvapi.js': {
+				exports: '$BV'
+			},
+			'jquery.ui.datepicker': {
+				deps: ['jquery.ui.core']
+			},
+			'jquery.ui.tabs': {
+				deps: ['jquery.ui.widget']
+			},
+			'jquery.ui.widget': {
+				deps: ['jquery.ui.core']
+			},
+			'swfobject': {
+				exports: 'swfobject'
+			},
+			'dust': {
+				exports: 'dust'
+			},
+			'dust-full': {
+				exports: 'dust'
+			},
+			'dust-helpers': ['dust'],
+			'deep-model': ['backbone'],
+			'less':{
+				exports: 'less'
+			},
+			'modelbinder': {
+				deps: ['backbone'],
+				exports: "Backbone.ModelBinder"
+			},
+			'stickit': {
+				deps: ['backbone'],
+				exports: "Backbone.Stickit"
+			},
+			'eventmanager-backbone': ['eventmanager', 'backbone'],
+			'eventmanager-debugmode': ['eventmanager'],
+
+			'backbone.marionette': {
+				deps : ['backbone.radio', 'backbone.babysitter', 'backbone'],
+				init : function(){
+					(function(root, factory) {
+					  if (typeof define === 'function' && define.amd) {
+						define(['backbone.marionette', 'backbone.radio', 'underscore'], factory);
+					  } else if (typeof exports !== 'undefined') {
+						module.exports = factory(require('backbone.marionette'), require('backbone.radio'), require('underscore'));
+					  } else {
+						factory(root.Backbone.Marionette, root.Backbone.Radio, root._);
+					  }
+					}(this, function(Marionette, Radio, _) {
+					  'use strict';
+
+					  Marionette.Application.prototype._initChannel = function () {
+						this.channelName = _.result(this, 'channelName') || 'global';
+						this.channel = _.result(this, 'channel') || Radio.channel(this.channelName);
+					  }
+					}));
+				}
+			},
+
+			'bluebird' : {
+				exports: 'P'
+			},
+
+			// enabling require support until the following libraries can be refactored
+
+			'alert': {
+				exports: 'Alert'
+			},
+			'alertview': {
+				exports: 'AlertView'
+			},
+			'facebook': {
+				exports: 'FB'
+			}
+		},
+		paths: {
+			'alert': 'sc-alerts/javascript/models/alert',
+			'alertview': 'sc-alerts/javascript/views/alertView',
+			'backbone': 'sc-libraries/javascript/backbone/backbone',
+			'backbone-hammer': 'sc-libraries/javascript/backbone/backbone.hammer',
+			'backbone._marionette': 'sc-libraries/javascript/backbone/backbone.marionette',
+			'backbone.marionette': 'sc-libraries/javascript/backbone/backbone.bby-marionette',
+			'backbone.radio': 'sc-libraries/javascript/backbone/backbone.radio',
+			'backbone.babysitter': 'sc-libraries/javascript/backbone/backbone.babysitter',
+			'backbone.marionette-dust': 'sc-libraries/javascript/backbone/backbone.marionette-dust',
+			'backbone.marionette-toJSON': 'sc-libraries/javascript/backbone/backbone.marionette-toJSON',
+			'backbone.stickit': 'sc-libraries/javascript/backbone/backbone.stickit',
+			'backbone.modelbinder': 'sc-libraries/javascript/backbone/backbone.model-binder',
+			'backbone.deep-model': 'sc-libraries/javascript/backbone/backbone.deep-model',
+			'bootstrap': 'sc-libraries/javascript/bootstrap',
+			'breadcrumb': '_breadcrumb/javascript/views/breadcrumbView',
+			'CartButtonController': '_cartButton/javascript/CartButtonController',
+			'chai': 'sc-libraries/javascript/testing/chai',
+			'chai-backbone': 'sc-libraries/javascript/testing/chai-backbone',
+			'chai-bootstrap': 'sc-libraries/javascript/testing/chai-bootstrap',
+			'chai-changes': 'sc-libraries/javascript/testing/chai-changes',
+			'ccm': '_cookieManager/javascript/_cookieManager',
+			'cookieManager': 'sc-libraries/javascript/cookieManager',
+			'dust-helpers': 'sc-libraries/javascript/dust/dust-helpers',
+			'dust': 'sc-libraries/javascript/dust/dust-core',
+			'dust-full': 'sc-libraries/javascript/dust/dust-full',
+			'dust-loader': 'sc-libraries/javascript/require/plugins/dust-loader',
+			'json-loader': 'sc-libraries/javascript/require/plugins/json-loader',
+			'eventmanager': 'sc-libraries/javascript/eventmanager/eventmanager',
+			'eventmanager-backbone': 'sc-libraries/javascript/eventmanager/backbone-integration',
+			'eventmanager-debugmode': 'sc-libraries/javascript/eventmanager/debug-mode',
+			'hammer': 'sc-libraries/javascript/hammer',
+			'imagegallery': '_imageGallery/javascript/views/imageGalleryView',
+			'less':'sc-libraries/javascript/less/less',
+			'less-loader': 'sc-libraries/javascript/require/plugins/less-loader',
+			'marked': 'sc-libraries/javascript/require/marked',
+			'media-player': 'sc-libraries/javascript/mediaelement-and-player',
+			'MegaSuperGalleryView': '_megaSuperGallery/javascript/views/MegaSuperGalleryView',
+			'musicplayer': '_musicPlayer/javascript/views/MusicPlayerView',
+			'pikaday': 'sc-libraries/javascript/pikaday',
+			'popup': '_popup/javascript/_popup',
+			'retina-helper': '_retina/javascript/helpers/retinaHelper',
+			'sinon': 'sc-libraries/javascript/testing/sinon',
+			'sinon-chai': 'sc-libraries/javascript/testing/sinon-chai',
+			'swfobject': 'sc-libraries/javascript/swfobject',
+			'text': 'sc-libraries/javascript/require/text',
+			'i18n':'sc-libraries/javascript/require/i18n',
+			'jquery': 'sc-libraries/javascript/jquery/jquery',
+			'jquery.appear': 'sc-libraries/javascript/jquery/jquery.appear',
+			'jquery.ba-hashchange': 'sc-libraries/javascript/jquery/jquery.ba-hashchange.min',
+			'jquery.colorbox': 'sc-libraries/javascript/jquery/jquery.colorbox',
+			'jquery.cookie': 'sc-libraries/javascript/jquery/jquery.cookie',
+			'jquery.elevatezoom': 'sc-libraries/javascript/jquery/jquery.elevatezoom',
+			'jquery-hammerjs': 'sc-libraries/javascript/jquery/jquery.hammer',
+			'jquery.hoverIntent': 'sc-libraries/javascript/jquery/jquery.hoverIntent',
+			'jquery.jsonp' : 'sc-libraries/javascript/jquery/jquery.jsonp.min',
+			'jquery.liveclicker': 'sc-libraries/javascript/jquery/jquery.liveclicker',
+			'jquery.liveclicker.bestbuy-gadget': 'sc-libraries/javascript/jquery/jquery.liveclicker.bestbuy-gadget',
+			'jquery.maskedInput': 'sc-libraries/javascript/jquery/jquery.maskedInput',
+			'jquery.mmenu': 'sc-libraries/javascript/jquery/jquery.mmenu',
+			'jquery.mockjax': 'sc-libraries/javascript/jquery/jquery.mockjax',
+			'jquery.ubaplayer': 'sc-libraries/javascript/jquery/jquery.ubaplayer',
+			'jquery.url': 'sc-libraries/javascript/jquery/jquery.url',
+			'jquery.xmldom': 'sc-libraries/javascript/jquery/jquery.xmldom',
+			'jquery.ui':'sc-libraries/javascript/jquery/jquery-ui/jquery-ui',
+			'jquery.ui.accordion':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.accordion',
+			'jquery.ui.autocomplete':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.accordion',
+			'jquery.ui.button':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.button',
+			'jquery.ui.core':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.core',
+			'jquery.ui.datepicker':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.datepicker',
+			'jquery.ui.dialog':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.dialog',
+			'jquery.ui.draggable':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.draggable',
+			'jquery.ui.droppable':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.droppable',
+			'jquery.ui.effect-blind':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-blind',
+			'jquery.ui.effect-bounce':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-bounce',
+			'jquery.ui.effect-clip':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-clip',
+			'jquery.ui.effect-drop':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-drop',
+			'jquery.ui.effect-explode':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-explode',
+			'jquery.ui.effect-fade':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fade',
+			'jquery.ui.effect-fold':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-fold',
+			'jquery.ui.effect-highlight':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-highlight',
+			'jquery.ui.effect-pulsate':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-pulsate',
+			'jquery.ui.effect-scale':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-scale',
+			'jquery.ui.effect-shake':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-shake',
+			'jquery.ui.effect-slide':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect-slide',
+			'jquery.ui.effect':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.effect',
+			'jquery.ui.menu':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.menu',
+			'jquery.ui.mouse':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.mouse',
+			'jquery.ui.position':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.position',
+			'jquery.ui.progressbar':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.progressbar',
+			'jquery.ui.resizable':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.resizable',
+			'jquery.ui.slider':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.slider',
+			'jquery.ui.sortable':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.sortable',
+			'jquery.ui.spinner':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.spinner',
+			'jquery.ui.tabs':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tabs',
+			'jquery.ui.tooltip':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.tooltip',
+			'jquery.ui.widget':'sc-libraries/javascript/jquery/jquery-ui/jquery.ui.widget',
+			'modalmanager': 'sc-libraries/javascript/modalmanager',
+			"moment": "sc-libraries/javascript/moment",
+			"moment-timezone": "sc-libraries/javascript/moment-timezone",
+			'libraries': 'sc-libraries/javascript/libraries',
+			'q': 'sc-libraries/javascript/q',
+			'bluebird': 'sc-libraries/javascript/bluebird',
+			'lodash': 'sc-libraries/javascript/lodash.compat',
+			'facebook': '//connect.facebook.net/en_US/all',
+			'node-forge': 'sc-libraries/javascript/forge'
+		},
+		bundles: {
+			'libraries': ['jquery', 'underscore', 'lodash', 'backbone', 'dust', 'dust-helpers', 'less', 'eventmanager', 'bluebird']
+		},
+		map: {
+			'*': {
+				'hammerjs': 'hammer',
+				'underscore': 'lodash',
+				'lib': 'sc-libraries/javascript/require',
+				'marionette': 'backbone.marionette',
+				'dustjs' : 'dust',
+				'backbone.wreqr': 'backbone.radio',
+				'stickit' : 'backbone.stickit',
+				'deep-model' : 'backbone.deep-model',
+				'modelbinder' : 'backbone.modelbinder'
+			}
+		},
+		config: {
+			text: {
+				useXhr: function(url, protocol, hostname, port) {
+					return hostname === '127.0.0.1' || hostname === 'localhost';
+				}
+			}
+		}
+	};
+
+	if (!isNode && window.define && define.amd) {
+		define('manifest', manifest);
+	}
+
+	if (isNode === true) {
+		exports = module.exports = config;
+	} else if (window.require) {
+		require.config(config);
+		require.manifest = manifest;
+
+		var requireLoad = require.load;
+		require.load = function(context, moduleName, url) {
+			var baseUrl = require.toUrl('.').slice(0,-1),
+				relativeUrl = url.replace(baseUrl,''),
+				newUrl;
+
+				newUrl = manifest[relativeUrl] ? baseUrl + manifest[relativeUrl] : url;
+
+			requireLoad.call(this, context, moduleName, newUrl);
+		};
+
+
+		if (testMode === true) {
+			var tests = Object.keys(__karma__.files).filter(function(file){
+				return (/(-s|S)pec\.js$/).test(file);
+			});
+			require.config({
+				deps: tests,
+				callback: __karma__.start
+			});
+		}
+
+	} else {
+		window.require = config;
+	}
+
+}());

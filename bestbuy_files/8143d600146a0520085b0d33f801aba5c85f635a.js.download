@@ -1,0 +1,7 @@
+if(typeof $ !== "undefined" && !!window.dioFramework) {
+    // var rdpVal = cookieUtil.getCookie('bby_rdp');
+    var rdpVal = bt_cookie('bby_rdp');
+    if(rdpVal && rdpVal === 's') {
+        $('#listpage-admodel-target').remove();
+    }
+}
